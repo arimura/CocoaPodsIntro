@@ -2,7 +2,6 @@
 //  CocoaPodsIntro.h
 //  CocoaPodsIntro
 //
-//  Created by 有村 皓太郎 on 2017/05/23.
 //  Copyright © 2017年 hormiga6. All rights reserved.
 //
 
