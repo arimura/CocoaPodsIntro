@@ -10,6 +10,10 @@
 		762B9DC31ED4244F0003A9B3 /* CocoaPodsIntro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 762B9DB91ED4244E0003A9B3 /* CocoaPodsIntro.framework */; };
 		762B9DC81ED4244F0003A9B3 /* CocoaPodsIntroTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762B9DC71ED4244F0003A9B3 /* CocoaPodsIntroTests.swift */; };
 		762B9DCA1ED4244F0003A9B3 /* CocoaPodsIntro.h in Headers */ = {isa = PBXBuildFile; fileRef = 762B9DBC1ED4244E0003A9B3 /* CocoaPodsIntro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		762B9DD51ED4261B0003A9B3 /* cat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 762B9DD41ED4261B0003A9B3 /* cat.jpg */; };
+		762B9DD71ED4266D0003A9B3 /* CocoaPodsIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762B9DD61ED4266D0003A9B3 /* CocoaPodsIntro.swift */; };
+		762B9DD91ED427320003A9B3 /* IntroViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 762B9DD81ED427320003A9B3 /* IntroViewController.xib */; };
+		762B9DDB1ED427CF0003A9B3 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762B9DDA1ED427CF0003A9B3 /* IntroViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +33,10 @@
 		762B9DC21ED4244F0003A9B3 /* CocoaPodsIntroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CocoaPodsIntroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		762B9DC71ED4244F0003A9B3 /* CocoaPodsIntroTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocoaPodsIntroTests.swift; sourceTree = "<group>"; };
 		762B9DC91ED4244F0003A9B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		762B9DD41ED4261B0003A9B3 /* cat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cat.jpg; sourceTree = "<group>"; };
+		762B9DD61ED4266D0003A9B3 /* CocoaPodsIntro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CocoaPodsIntro.swift; sourceTree = "<group>"; };
+		762B9DD81ED427320003A9B3 /* IntroViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IntroViewController.xib; sourceTree = "<group>"; };
+		762B9DDA1ED427CF0003A9B3 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,8 +79,12 @@
 		762B9DBB1ED4244E0003A9B3 /* CocoaPodsIntro */ = {
 			isa = PBXGroup;
 			children = (
+				762B9DD31ED4261B0003A9B3 /* Resources */,
 				762B9DBC1ED4244E0003A9B3 /* CocoaPodsIntro.h */,
 				762B9DBD1ED4244E0003A9B3 /* Info.plist */,
+				762B9DD61ED4266D0003A9B3 /* CocoaPodsIntro.swift */,
+				762B9DDA1ED427CF0003A9B3 /* IntroViewController.swift */,
+				762B9DD81ED427320003A9B3 /* IntroViewController.xib */,
 			);
 			path = CocoaPodsIntro;
 			sourceTree = "<group>";
@@ -84,6 +96,15 @@
 				762B9DC91ED4244F0003A9B3 /* Info.plist */,
 			);
 			path = CocoaPodsIntroTests;
+			sourceTree = "<group>";
+		};
+		762B9DD31ED4261B0003A9B3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				762B9DD41ED4261B0003A9B3 /* cat.jpg */,
+			);
+			name = Resources;
+			path = img;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +170,7 @@
 					762B9DB81ED4244E0003A9B3 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 647UF2GQJ5;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					762B9DC11ED4244F0003A9B3 = {
@@ -181,6 +203,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				762B9DD51ED4261B0003A9B3 /* cat.jpg in Resources */,
+				762B9DD91ED427320003A9B3 /* IntroViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,6 +222,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				762B9DD71ED4266D0003A9B3 /* CocoaPodsIntro.swift in Sources */,
+				762B9DDB1ED427CF0003A9B3 /* IntroViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +348,7 @@
 		762B9DCE1ED4244F0003A9B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 647UF2GQJ5;
@@ -334,6 +361,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.hormiga6.CocoaPodsIntro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -341,6 +369,7 @@
 		762B9DCF1ED4244F0003A9B3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 647UF2GQJ5;
@@ -360,6 +389,7 @@
 		762B9DD11ED4244F0003A9B3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 647UF2GQJ5;
 				INFOPLIST_FILE = CocoaPodsIntroTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -372,6 +402,7 @@
 		762B9DD21ED4244F0003A9B3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 647UF2GQJ5;
 				INFOPLIST_FILE = CocoaPodsIntroTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
