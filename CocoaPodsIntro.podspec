@@ -5,10 +5,10 @@ Pod::Spec.new do |s|
   s.description  = <<-DESC
 hoge hoge
                    DESC
-
+  s.platform     = :ios, "8.0"
   s.homepage     = "https://github.com/vg-arimura/CocoaoPodsIntro"
   s.license      = "MIT"
   s.author             = { "Kotaro Arimura" => "kotaro_arimura@voyagegroup.com" }
   s.source       = { :git => "https://github.com/vg-arimura/CocoaoPodsIntro.git", :tag => 'v' + s.version.to_s  }
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
+  s.source_files  = "CocoaPodsIntro/*.swift"
 end
