@@ -10,7 +10,7 @@ import Foundation
 public class CocoaPodsIntro {
   public static func showViewController(vc: UIViewController){
 
-    let introViewController = IntroViewController(nibName: "IntroViewController", bundle: Bundle(identifier: "com.hormiga6.CocoaPodsIntro"))
+    let introViewController = IntroViewController(nibName: "IntroViewController", bundle: Bundle(for: CocoaPodsIntro.self))
     vc.present(introViewController, animated: true, completion: nil)
   }
 }
