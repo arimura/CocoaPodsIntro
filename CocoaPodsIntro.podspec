@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "CocoaPodsIntro"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "hoge fuga"
   s.description  = <<-DESC
 hoge hoge
@@ -11,4 +11,5 @@ hoge hoge
   s.author       = { "Kotaro Arimura" => "kotaro_arimura@voyagegroup.com" }
   s.source       = { :git => "https://github.com/vg-arimura/CocoaoPodsIntro.git", :tag => 'v' + s.version.to_s  }
   s.source_files  = "CocoaPodsIntro/*.swift"
+  s.resource_bundles = {'CocoaoPodsIntro' => ["CocoaPodsIntro/*.xib","CocoaPodsIntro/img/*.jpg"]}
 end
