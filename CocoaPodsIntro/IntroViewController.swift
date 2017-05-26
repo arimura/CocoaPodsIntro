@@ -13,7 +13,6 @@ class IntroViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
 
-    let image = UIImage(named: "cat.jpg", in: Bundle(for: CocoaPodsIntro.self), compatibleWith: nil)
-    imageView.image = image
+    imageView.image = CocoaPodsIntro.getImage(name: "cat.jpg")
   }
 }
