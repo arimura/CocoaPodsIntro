@@ -14,6 +14,7 @@
 		762B9DD71ED4266D0003A9B3 /* CocoaPodsIntro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762B9DD61ED4266D0003A9B3 /* CocoaPodsIntro.swift */; };
 		762B9DD91ED427320003A9B3 /* IntroViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 762B9DD81ED427320003A9B3 /* IntroViewController.xib */; };
 		762B9DDB1ED427CF0003A9B3 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 762B9DDA1ED427CF0003A9B3 /* IntroViewController.swift */; };
+		766FD8981ED8067400934651 /* cat2.png in Resources */ = {isa = PBXBuildFile; fileRef = 766FD8971ED8067400934651 /* cat2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,7 @@
 		762B9DD61ED4266D0003A9B3 /* CocoaPodsIntro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CocoaPodsIntro.swift; sourceTree = "<group>"; };
 		762B9DD81ED427320003A9B3 /* IntroViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IntroViewController.xib; sourceTree = "<group>"; };
 		762B9DDA1ED427CF0003A9B3 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		766FD8971ED8067400934651 /* cat2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				762B9DD41ED4261B0003A9B3 /* cat.jpg */,
+				766FD8971ED8067400934651 /* cat2.png */,
 			);
 			name = Resources;
 			path = img;
@@ -205,6 +208,7 @@
 			files = (
 				762B9DD51ED4261B0003A9B3 /* cat.jpg in Resources */,
 				762B9DD91ED427320003A9B3 /* IntroViewController.xib in Resources */,
+				766FD8981ED8067400934651 /* cat2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,6 +435,7 @@
 				762B9DCF1ED4244F0003A9B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		762B9DD01ED4244F0003A9B3 /* Build configuration list for PBXNativeTarget "CocoaPodsIntroTests" */ = {
 			isa = XCConfigurationList;
@@ -439,6 +444,7 @@
 				762B9DD21ED4244F0003A9B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
