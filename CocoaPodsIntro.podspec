@@ -12,4 +12,5 @@ hoge hoge
   s.source       = { :git => "https://github.com/arimura/CocoaPodsIntro.git", :tag => 'v' + s.version.to_s  }
   s.source_files  = "CocoaPodsIntro/*.swift"
   s.resource_bundles = {'CocoaPodsIntro' => ["CocoaPodsIntro/*.xib","CocoaPodsIntro/img/*.jpg"]}
+  s.swift_version = "4.2"
 end
